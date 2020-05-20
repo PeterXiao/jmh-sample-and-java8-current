@@ -15,6 +15,7 @@ public class SwitchExpressions {
         };
 
         System.out.println("Switch expressions with pattern matching: " + message);
+
     }
 }
 

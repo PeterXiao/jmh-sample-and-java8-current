@@ -1,4 +1,4 @@
-package compareuntil;
+package problems.compareuntil;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicLong;

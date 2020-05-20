@@ -15,4 +15,7 @@ package algorithms;
 http://www.cnblogs.com/codingmylife/archive/2012/10/21/2732980.html
 
 https://mp.weixin.qq.com/s/h7FN25opqpuclRX9j0DkYg
+
+Java与C++之间有一堵由内存动态分配和垃圾收集技术所围成的高墙，墙外面的人想进去，墙里
+面的人却想出来。
 */

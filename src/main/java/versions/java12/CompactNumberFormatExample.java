@@ -7,6 +7,9 @@ package versions.java12;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class CompactNumberFormatExample {
     public static void main(String[] args) {
         NumberFormat followers =
@@ -14,4 +17,5 @@ public class CompactNumberFormatExample {
         followers.setMaximumFractionDigits(1);
         System.out.println(followers.format(5412) + " followers");
     }
+
 }
