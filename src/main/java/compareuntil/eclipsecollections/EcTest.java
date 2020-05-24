@@ -1,5 +1,8 @@
 package compareuntil.eclipsecollections;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.eclipse.collections.api.factory.Lists;
 
 import versions.java8.modle.Person;
@@ -30,6 +33,10 @@ public class EcTest {
             .collect(Person::getName); // Meat
 
         namesOver21.forEach(System.out::println);
+
+        List<String> l1 = new ArrayList<String>();
+        List<Integer> l2 = new ArrayList<Integer>();
+        System.out.println(l1.getClass() == l2.getClass());
     }
 
 }
