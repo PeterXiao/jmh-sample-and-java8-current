@@ -16,7 +16,7 @@ import java.util.List;
 public class OOMTest {
     public static void main(String[] args) {
         try {
-            // 准备url
+            // 准备url 使用相对路径
             URL url = new File("target\\classes\\problems\\jvm\\oom").toURI().toURL();
             System.out.println(url);
             URL[] urls = {url};
