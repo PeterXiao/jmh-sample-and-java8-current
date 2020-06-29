@@ -14,6 +14,8 @@ public class PersonRecordTest {
         assertEquals("Parker", person.lastName());
         assertEquals("Peter", person.firstName());
         assertEquals("Parker", person.lastName());
+        assertEquals("Peter", person.firstName());
+        assertEquals("Parker", person.lastName());
     }
 
 }
