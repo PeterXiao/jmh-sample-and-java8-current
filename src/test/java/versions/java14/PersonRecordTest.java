@@ -1,10 +1,8 @@
- package versions.java14;
+package versions.java14;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-
-import versions.java14.*;
 
 public class PersonRecordTest {
 
@@ -14,14 +12,12 @@ public class PersonRecordTest {
 
         assertEquals("Peter", person.firstName());
         assertEquals("Parker", person.lastName());
+        assertEquals("Peter", person.firstName());
+        assertEquals("Parker", person.lastName());
     }
 
 }
 
-
-
-
 class PersonTest {
-
 
 }
