@@ -123,11 +123,10 @@ public class PerfTest {
 		}
 	}
 
-	
-//	  public static void main(String[] args) { PerfTest test = new PerfTest();
-//	  test.time(test::forEachLoopMaxInteger, test::forMaxInteger,
-//	  test::iteratorMaxInteger, test::lambdaMaxInteger,
-//	 test::parallelStreamMaxInteger); }
-	 
+	public static void main(String[] args) {
+		PerfTest test = new PerfTest();
+		test.time(test::forEachLoopMaxInteger, test::forMaxInteger, test::iteratorMaxInteger, test::lambdaMaxInteger,
+				test::parallelStreamMaxInteger);
+	}
 
 }
